@@ -1,0 +1,35 @@
+img {
+  max-width: 100%;
+}
+
+.text-primary {
+  color: #2e3192;
+}
+.text-secondary {
+  color: #bd1b88;
+}
+
+.container {
+  width: 1170px !important;
+  margin: auto;
+}
+
+.btn {
+  color: #fff;
+  padding: 10px 20px;
+  background-color: #bd1b88;
+  border: none;
+}
+
+.overlay {
+  background: linear-gradient(
+    100deg,
+    rgba(46, 49, 146, 0.7) 7.6%,
+    rgba(189, 27, 136, 0.42) 78.11%
+  );
+}
+
+a:hover {
+  color: #bd1b88;
+  transition: all 0.3s;
+}
