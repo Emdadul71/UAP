@@ -6,14 +6,10 @@
     <title>Asia Pacific University</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="styles/main.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css"
-    />
   </head>
   <body>
     <!-- Top Bar start -->
-    <section class="bg-[#2E3192] sticky top-0 z-50">
+    <section class="bg-[#2E3192]">
       <div class="container">
         <div class="flex items-center justify-end gap-10">
           <ul class="flex gap-10 text-white">
@@ -31,22 +27,21 @@
     <!-- Top Bar Ends -->
 
     <!-- Navbar start -->
-    <nav class="relative sticky top-[40px] z-50 bg-white">
+    <nav class="bg-[#EEEEFA]">
       <div class="container">
-        <div class="flex items-center justify-end xl:justify-between py-[15px]">
+        <div class="flex items-center justify-between py-[15px]">
           <a href="#">
-            <img src="./images/logo.png" alt="" class="h-[50px]" />
+            <img src="./images/logo.png" alt="" class="h-[70px]" />
           </a>
-
-          <ul class="gap-[30px] hidden xl:flex">
+          <ul class="flex gap-[30px]">
             <li>
-              <a href="/" class="text-base">Home</a>
+              <a href="#" class="text-base">Home</a>
             </li>
             <li>
-              <a href="/about-us.html" class="text-base">About Us</a>
+              <a href="#" class="text-base">About Us</a>
             </li>
             <li>
-              <a href="/programs.html" class="text-base">Programs</a>
+              <a href="#" class="text-base">Programs</a>
             </li>
             <li>
               <a href="#" class="text-base">Admissions</a>
@@ -61,64 +56,19 @@
               <a href="#" class="text-base">Student Life</a>
             </li>
             <li>
-              <a href="/contacts.html" class="text-base">Contact Us</a>
+              <a href="#" class="text-base">Contact Us</a>
             </li>
           </ul>
-          <!-- Drawer -->
-          <header role="banner" class="drawer drawer--left xl:hidden flex">
-            <button
-              type="button"
-              class="drawer-toggle drawer-hamburger w-[20px] !absolute"
-            >
-              <span class="sr-only">toggle navigation</span>
-              <span class="drawer-hamburger-icon"></span>
-            </button>
-            <nav class="drawer-nav" role="navigation">
-              <div>
-                <a href="#" class="inline-block p-3">
-                  <img src="./images/logo.png" alt="" class="h-[50px]" />
-                </a>
-              </div>
-
-              <div class="w-full h-[1px] bg-[#D9D9D9]"></div>
-              <ul class="flex flex-col gap-[10px] p-5">
-                <li>
-                  <a href="/" class="text-base">Home</a>
-                </li>
-                <li>
-                  <a href="/about-us.html" class="text-base">About Us</a>
-                </li>
-                <li>
-                  <a href="/programs.html" class="text-base">Programs</a>
-                </li>
-                <li>
-                  <a href="#" class="text-base">Admissions</a>
-                </li>
-                <li>
-                  <a href="#" class="text-base">Curriculum</a>
-                </li>
-                <li>
-                  <a href="#" class="text-base">Career Services</a>
-                </li>
-                <li>
-                  <a href="#" class="text-base">Student Life</a>
-                </li>
-                <li>
-                  <a href="/contacts.html" class="text-base">Contact Us</a>
-                </li>
-              </ul>
-            </nav>
-          </header>
-          <!-- Drawer -->
         </div>
       </div>
     </nav>
     <!-- Navbar Ends -->
 
     <!-- contact us section start-->
-    <section class="py-5 lg:py-[80px]">
+
+    <section class="py-[80px]">
       <div class="container">
-        <div class="grid lg:grid-cols-[270px_1fr] gap-[30px]">
+        <div class="grid grid-cols-[270px_1fr] gap-[30px]">
           <div
             class="shadow-[0_5px_6px_0px_rgba(0,0,0,0.06)] self-start rounded-md"
           >
@@ -354,11 +304,9 @@
     <!-- Get Ready section Ends-->
 
     <!-- Footer section Start-->
-    <footer class="py-5 lg:py-[60px]">
+    <footer class="py-[60px]">
       <div class="container">
-        <div
-          class="grid lg:grid-cols-[470px_370px] justify-between mb-5 lg:mb-[60px] gap-5"
-        >
+        <div class="grid lg:grid-cols-[470px_370px] justify-between mb-[60px]">
           <div>
             <div class="mb-[30px]">
               <div class="mb-4">
@@ -429,12 +377,10 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-col md:flex-row justify-between gap-2">
-          <p class="text-sm text-center order-1">
-            © 2000-2021, All Rights Reserved
-          </p>
-          <div class="lg:order-1">
-            <ul class="flex justify-center gap-5 lg:gap-10">
+        <div class="flex justify-between">
+          <p class="text-sm">© 2000-2021, All Rights Reserved</p>
+          <div>
+            <ul class="flex gap-10">
               <li><a href="#">Terms of service</a></li>
               <li><a href="#"> Privacy Policy</a></li>
               <li><a href="#">Help</a></li>
@@ -444,11 +390,5 @@
       </div>
     </footer>
     <!-- Footer section Ends-->
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
-    <!-- drawer.js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
-    <script src="./scripts/script.js"></script>
   </body>
 </html>

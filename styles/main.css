@@ -10,7 +10,8 @@ img {
 }
 
 .container {
-  width: 1170px !important;
+  max-width: 1170px !important;
+  padding: 0 20px;
   margin: auto;
 }
 
@@ -32,4 +33,15 @@ img {
 a:hover {
   color: #bd1b88;
   transition: all 0.3s;
+}
+
+.drawer-hamburger {
+  left: 20px !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+}
+
+.drawer--left.drawer-open .drawer-hamburger {
+  left: 200px !important;
+  top: 0% !important;
 }
