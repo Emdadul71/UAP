@@ -5,17 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Asia Pacific University</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles/main.css" />
 
     <!-- Drawer -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css"
+    />
 
+    />
     <!-- Modal -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
-
-    <link rel="stylesheet" href="styles/main.css" />
   </head>
   <body>
     <!-- Top Bar start -->
@@ -131,216 +135,222 @@
     </nav>
     <!-- Navbar Ends -->
 
-    <!-- contact us section start-->
-    <section class="py-5 lg:py-[80px]">
+    <!-- Hero Section Start -->
+    <section class="py-5 lg:py-[80px] mb-5 lg:mb-[80px] bg-[#FAFAFE]">
       <div class="container">
-        <div class="grid lg:grid-cols-[270px_1fr] gap-[30px]">
-          <div
-            class="shadow-[0_5px_6px_0px_rgba(0,0,0,0.06)] self-start rounded-md"
+        <div class="flex flex-col items-center gap-4 max-w-[900px] mx-auto">
+          <span class="bg-[#F8E8F3] py-[6px] px-4 rounded-full text-secondary"
+            >BBA/EMBA Program Available</span
           >
-            <div class="py-6 pl-4 border-b">
-              <p class="text-secondary font-semibold">BOARD OF TRUSTEES</p>
-            </div>
-            <div class="py-6 pl-4 border-b">
-              <p class="font-semibold">MEMBER OF ACADEMIC COUNCIL</p>
-            </div>
-            <div class="py-6 pl-4 border-b">
-              <p class="font-semibold">FINANCE COMMITTEE</p>
-            </div>
-            <div class="py-6 pl-4 border-b">
-              <p class="font-semibold">SELECTION BOARD</p>
-            </div>
-            <div class="py-6 pl-4 border-b">
-              <p class="font-semibold">DISCIPLINE COMMITTEE</p>
-            </div>
-            <div class="py-6 pl-4">
-              <p class="font-semibold">ADMINISTRATION</p>
-            </div>
+          <h2 class="text-center text-[56px] text-primary mb-0 font-bold">
+            Alumni Search
+          </h2>
+          <p class="text-center mb-0 text-xl text-[#686E71]">
+            Lorem ipsum dolor sit amet consectetur. Sollicitudin odio senectus
+            habitant proin vel turpis consectetur condimentum et. In nisl
+            ultrices aenean arcu. Ultrices in etiam amet nec. Amet id.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section Ends -->
+
+    <section class="pb-5 lg:pb-[60px]">
+      <div class="container">
+        <div class="grid grid-cols-6 gap-[30px] items-center">
+          <div>
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="Registration ID"
+              class="border py-1 px-2 rounded-md max-w-[100%]"
+            />
           </div>
           <div>
-            <h1 class="text-primary text-[36px] font-semibold mb-[30px]">
-              CONTACT US
-            </h1>
-            <div class="flex flex-col gap-4">
-              <div class="px-6 py-4 border rounded-md">
-                <p class="text-lg text-secondary font-semibold mb-3">
-                  UAP Administration
-                </p>
-                <div>
-                  <p class="text-[#575757]">
-                    74/A , Green Road , Dhaka - 1205, Bangladesh
-                  </p>
-                  <p class="text-[#575757]">
-                    Telephone: +8802-48114140 PABX:
-                    +8802-58157091-4,+8802-58157096
-                  </p>
-                  <p class="text-[#575757]">
-                    (Ext - 210, 211, 212, 213, 215) FAX:+8802-58157097
-                  </p>
-                  <p class="text-[#575757]">
-                    Cell: +8801731681081, +8801768544208.
-                    +8801714088321+8801789050383
-                  </p>
-                  <p class="text-[#575757]">Email: admission@uap-bd.edu</p>
-                </div>
-              </div>
-              <div class="px-6 py-4 border rounded-md">
-                <p class="text-lg text-secondary font-semibold mb-3">
-                  UAP Administration
-                </p>
-                <div>
-                  <p class="text-[#575757]">
-                    74/A , Green Road , Dhaka - 1205, Bangladesh
-                  </p>
-                  <p class="text-[#575757]">
-                    Telephone: +8802-48114140 PABX:
-                    +8802-58157091-4,+8802-58157096
-                  </p>
-                  <p class="text-[#575757]">
-                    (Ext - 210, 211, 212, 213, 215) FAX:+8802-58157097
-                  </p>
-                  <p class="text-[#575757]">
-                    Cell: +8801731681081, +8801768544208.
-                    +8801714088321+8801789050383
-                  </p>
-                  <p class="text-[#575757]">Email: admission@uap-bd.edu</p>
-                </div>
-              </div>
-              <div class="px-6 py-4 border rounded-md">
-                <p class="text-lg text-secondary font-semibold mb-3">
-                  UAP Administration
-                </p>
-                <div>
-                  <p class="text-[#575757]">
-                    74/A , Green Road , Dhaka - 1205, Bangladesh
-                  </p>
-                  <p class="text-[#575757]">
-                    Telephone: +8802-48114140 PABX:
-                    +8802-58157091-4,+8802-58157096
-                  </p>
-                  <p class="text-[#575757]">
-                    (Ext - 210, 211, 212, 213, 215) FAX:+8802-58157097
-                  </p>
-                  <p class="text-[#575757]">
-                    Cell: +8801731681081, +8801768544208.
-                    +8801714088321+8801789050383
-                  </p>
-                  <p class="text-[#575757]">Email: admission@uap-bd.edu</p>
-                </div>
-              </div>
-              <div class="px-6 py-4 border rounded-md">
-                <p class="text-lg text-secondary font-semibold mb-3">
-                  UAP Administration
-                </p>
-                <div>
-                  <p class="text-[#575757]">
-                    74/A , Green Road , Dhaka - 1205, Bangladesh
-                  </p>
-                  <p class="text-[#575757]">
-                    Telephone: +8802-48114140 PABX:
-                    +8802-58157091-4,+8802-58157096
-                  </p>
-                  <p class="text-[#575757]">
-                    (Ext - 210, 211, 212, 213, 215) FAX:+8802-58157097
-                  </p>
-                  <p class="text-[#575757]">
-                    Cell: +8801731681081, +8801768544208.
-                    +8801714088321+8801789050383
-                  </p>
-                  <p class="text-[#575757]">Email: admission@uap-bd.edu</p>
-                </div>
-              </div>
-              <div class="px-6 py-4 border rounded-md">
-                <p class="text-lg text-secondary font-semibold mb-3">
-                  UAP Administration
-                </p>
-                <div>
-                  <p class="text-[#575757]">
-                    74/A , Green Road , Dhaka - 1205, Bangladesh
-                  </p>
-                  <p class="text-[#575757]">
-                    Telephone: +8802-48114140 PABX:
-                    +8802-58157091-4,+8802-58157096
-                  </p>
-                  <p class="text-[#575757]">
-                    (Ext - 210, 211, 212, 213, 215) FAX:+8802-58157097
-                  </p>
-                  <p class="text-[#575757]">
-                    Cell: +8801731681081, +8801768544208.
-                    +8801714088321+8801789050383
-                  </p>
-                  <p class="text-[#575757]">Email: admission@uap-bd.edu</p>
-                </div>
-              </div>
-              <div class="px-6 py-4 border rounded-md">
-                <p class="text-lg text-secondary font-semibold mb-3">
-                  UAP Administration
-                </p>
-                <div>
-                  <p class="text-[#575757]">
-                    74/A , Green Road , Dhaka - 1205, Bangladesh
-                  </p>
-                  <p class="text-[#575757]">
-                    Telephone: +8802-48114140 PABX:
-                    +8802-58157091-4,+8802-58157096
-                  </p>
-                  <p class="text-[#575757]">
-                    (Ext - 210, 211, 212, 213, 215) FAX:+8802-58157097
-                  </p>
-                  <p class="text-[#575757]">
-                    Cell: +8801731681081, +8801768544208.
-                    +8801714088321+8801789050383
-                  </p>
-                  <p class="text-[#575757]">Email: admission@uap-bd.edu</p>
-                </div>
-              </div>
-              <div class="px-6 py-4 border rounded-md">
-                <p class="text-lg text-secondary font-semibold mb-3">
-                  UAP Administration
-                </p>
-                <div>
-                  <p class="text-[#575757]">
-                    74/A , Green Road , Dhaka - 1205, Bangladesh
-                  </p>
-                  <p class="text-[#575757]">
-                    Telephone: +8802-48114140 PABX:
-                    +8802-58157091-4,+8802-58157096
-                  </p>
-                  <p class="text-[#575757]">
-                    (Ext - 210, 211, 212, 213, 215) FAX:+8802-58157097
-                  </p>
-                  <p class="text-[#575757]">
-                    Cell: +8801731681081, +8801768544208.
-                    +8801714088321+8801789050383
-                  </p>
-                  <p class="text-[#575757]">Email: admission@uap-bd.edu</p>
-                </div>
-              </div>
-              <div class="px-6 py-4 border rounded-md">
-                <p class="text-lg text-secondary font-semibold mb-3">
-                  UAP Administration
-                </p>
-                <div>
-                  <p class="text-[#575757]">
-                    74/A , Green Road , Dhaka - 1205, Bangladesh
-                  </p>
-                  <p class="text-[#575757]">
-                    Telephone: +8802-48114140 PABX:
-                    +8802-58157091-4,+8802-58157096
-                  </p>
-                  <p class="text-[#575757]">
-                    (Ext - 210, 211, 212, 213, 215) FAX:+8802-58157097
-                  </p>
-                  <p class="text-[#575757]">
-                    Cell: +8801731681081, +8801768544208.
-                    +8801714088321+8801789050383
-                  </p>
-                  <p class="text-[#575757]">Email: admission@uap-bd.edu</p>
-                </div>
-              </div>
-            </div>
+            <select
+              id="cars"
+              name="cars"
+              class="border px-2 py-1 rounded-md max-w-[100%]"
+            >
+              <option value="volvo">Department</option>
+              <option value="saab">
+                Department of Computer Science and Engineering
+              </option>
+              <option value="fiat">Fiat</option>
+              <option value="audi">Audi</option>
+            </select>
           </div>
+          <div>
+            <select
+              id="cars"
+              name="cars"
+              class="border px-2 py-1 rounded-md max-w-[100%]"
+            >
+              <option value="volvo">Program</option>
+              <option value="saab">
+                Department of Computer Science and Engineering
+              </option>
+              <option value="fiat">Fiat</option>
+              <option value="audi">Audi</option>
+            </select>
+          </div>
+          <div>
+            <select
+              id="cars"
+              name="cars"
+              class="border px-2 py-1 rounded-md min-w-[100%]"
+            >
+              <option value="volvo">Semester</option>
+              <option value="saab">Spring</option>
+              <option value="fiat">Fall</option>
+              <option value="audi">Summer</option>
+            </select>
+          </div>
+          <div>
+            <select
+              id="cars"
+              name="cars"
+              class="border px-2 py-1 rounded-md min-w-[100%]"
+            >
+              <option value="volvo">Passing Year</option>
+              <option value="saab">2000</option>
+              <option value="fiat">2001</option>
+              <option value="audi">2002</option>
+            </select>
+          </div>
+          <button class="max-w-[100%] btn rounded-md">Search</button>
         </div>
+      </div>
+    </section>
+
+    <!-- contact us section start-->
+
+    <section class="pb-[80px]">
+      <div class="container">
+        <table id="example" class="display" style="width: 100%">
+          <thead>
+            <tr>
+              <th>SL</th>
+              <th>Name</th>
+              <th>Student ID</th>
+              <th>Dept</th>
+              <th>Program</th>
+              <th>Semester of Passing</th>
+              <th>Passing Year</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Tiger Nixon</td>
+              <td>9730000001</td>
+              <td>Architecture</td>
+              <td>Bachelor of Architecture</td>
+              <td>Fall</td>
+              <td>2000</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Garrett Winters</td>
+              <td>963201010</td>
+              <td>Business Administration</td>
+              <td>Bachelor of Business Administration</td>
+              <td>Fall</td>
+              <td>2006</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Ashton Cox</td>
+              <td>963201016</td>
+              <td>Business Administration</td>
+              <td>Bachelor of Business Administration</td>
+              <td>Summer</td>
+              <td>2005</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Tiger Nixon</td>
+              <td>9730000001</td>
+              <td>Architecture</td>
+              <td>Bachelor of Architecture</td>
+              <td>Fall</td>
+              <td>2000</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Garrett Winters</td>
+              <td>963201010</td>
+              <td>Business Administration</td>
+              <td>Bachelor of Business Administration</td>
+              <td>Fall</td>
+              <td>2006</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>Ashton Cox</td>
+              <td>963201016</td>
+              <td>Business Administration</td>
+              <td>Bachelor of Business Administration</td>
+              <td>Summer</td>
+              <td>2005</td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>Tiger Nixon</td>
+              <td>9730000001</td>
+              <td>Architecture</td>
+              <td>Bachelor of Architecture</td>
+              <td>Fall</td>
+              <td>2000</td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>Garrett Winters</td>
+              <td>963201010</td>
+              <td>Business Administration</td>
+              <td>Bachelor of Business Administration</td>
+              <td>Fall</td>
+              <td>2006</td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>Ashton Cox</td>
+              <td>963201016</td>
+              <td>Business Administration</td>
+              <td>Bachelor of Business Administration</td>
+              <td>Summer</td>
+              <td>2005</td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>Tiger Nixon</td>
+              <td>9730000001</td>
+              <td>Architecture</td>
+              <td>Bachelor of Architecture</td>
+              <td>Fall</td>
+              <td>2000</td>
+            </tr>
+            <tr>
+              <td>11</td>
+              <td>Garrett Winters</td>
+              <td>963201010</td>
+              <td>Business Administration</td>
+              <td>Bachelor of Business Administration</td>
+              <td>Fall</td>
+              <td>2006</td>
+            </tr>
+            <tr>
+              <td>12</td>
+              <td>Ashton Cox</td>
+              <td>963201016</td>
+              <td>Business Administration</td>
+              <td>Bachelor of Business Administration</td>
+              <td>Summer</td>
+              <td>2005</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </section>
     <!-- contact us section ends-->
@@ -475,9 +485,10 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
-
     <!-- drawer.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
     <script src="./scripts/script.js"></script>
 
     <!-- jQuery Modal -->

@@ -17,7 +17,7 @@ img {
 
 .btn {
   color: #fff;
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
   background-color: #bd1b88;
   border: none;
 }
@@ -44,4 +44,14 @@ a:hover {
 .drawer--left.drawer-open .drawer-hamburger {
   left: 200px !important;
   top: 0% !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+  background: #2e3192 !important;
+  color: #fff !important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+  background: #2e3192 !important;
+  color: #fff !important;
 }

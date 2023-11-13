@@ -6,10 +6,15 @@
     <title>Asia Pacific University</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="styles/main.css" />
+
+    <!-- Drawer -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css"
     />
+
+    <!-- Modal -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
   </head>
   <body>
     <!-- Top Bar start -->
@@ -26,7 +31,15 @@
               <a href="#" class="text-sm">News/Events</a>
             </li>
           </ul>
-          <button class="btn text-sm">Login</button>
+          <!-- <button class="btn text-sm">Login</button> -->
+          <button class="btn text-sm">
+            <a
+              href="#sub-modal"
+              rel="modal:open"
+              class="inline-block py-[10px] px-5"
+              >Open Modal</a
+            >
+          </button>
         </div>
       </div>
     </section>
@@ -177,7 +190,7 @@
     <section class="pb-5 lg:pb-[80px]">
       <div class="container">
         <div class="flex flex-col gap-7 lg:gap-[40px]">
-          <div class="flex flex-col gap-3">
+          <div class="flex flex-col gap-3 mb-5 lg:mb-[40px]">
             <h2 class="text-center text-[48px] text-primary font-semibold">
               Our Services
             </h2>
@@ -186,41 +199,49 @@
             </p>
           </div>
           <div class="grid lg:grid-cols-4 gap-[30px]">
-            <div class="flex flex-col gap-[30px] items-center lg:py-[40px]">
+            <a href="#" class="flex flex-col gap-[30px] items-center group">
               <div>
                 <img src="./images/teaching.png" alt="Teaching Excellence" />
               </div>
-              <p class="text-base text-primary font-semibold">
+              <p
+                class="text-base text-primary group-hover:text-[#bd1b88] font-semibold transition-all"
+              >
                 Teaching Excellence
               </p>
-            </div>
-            <div class="flex flex-col gap-[30px] items-center lg:py-[40px]">
+            </a>
+            <a href="#" class="flex flex-col gap-[30px] items-center group">
               <div>
                 <img
                   src="./images/pioneering-research.png"
                   alt="Teaching Excellence"
                 />
               </div>
-              <p class="text-base text-primary font-semibold">
+              <p
+                class="text-base text-primary group-hover:text-[#bd1b88] font-semibold transition-all"
+              >
                 Pioneering Research
               </p>
-            </div>
-            <div class="flex flex-col gap-[30px] items-center lg:py-[40px]">
+            </a>
+            <a href="#" class="flex flex-col gap-[30px] items-center group">
               <div>
                 <img src="./images/responsible.png" alt="Teaching Excellence" />
               </div>
-              <p class="text-base text-primary font-semibold">
+              <p
+                class="text-base text-primary group-hover:text-[#bd1b88] font-semibold transition-all"
+              >
                 Responsible Business
               </p>
-            </div>
-            <div class="flex flex-col gap-[30px] items-center py-[40px]">
+            </a>
+            <a href="#" class="flex flex-col gap-[30px] items-center group">
               <div>
                 <img src="./images/global.png" alt="Teaching Excellence" />
               </div>
-              <p class="text-base text-primary font-semibold">
+              <p
+                class="text-base text-primary group-hover:text-[#bd1b88] font-semibold transition-all"
+              >
                 Global Community
               </p>
-            </div>
+            </a>
           </div>
         </div>
       </div>
@@ -664,7 +685,9 @@
           </div>
 
           <div class="justify-self-center lg:justify-self-end">
-            <button href="#" class="btn rounded-md">Register Now</button>
+            <button href="#" class="btn rounded-md py-[10px] px-5">
+              Register Now
+            </button>
           </div>
         </div>
       </div>
@@ -763,10 +786,28 @@
     </footer>
     <!-- Footer section Ends-->
 
+    <!-- Modal -->
+    <section>
+      <div class="container">
+        <div id="sub-modal" class="modal">
+          <p>Thanks for clicking. That felt good.</p>
+          <a href="#" rel="modal:close">Close</a>
+        </div>
+      </div>
+    </section>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
     <!-- drawer.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+
+    <!-- jQuery Modal -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css"
+    />
     <script src="./scripts/script.js"></script>
   </body>
 </html>
